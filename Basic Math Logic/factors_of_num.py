@@ -9,6 +9,9 @@ def factors(num):
             if num // i != i:
                 result.append(num // i)
 
+# but the result after append will not be sorted
+# so, to sort the list
+
     result.sort()
     return result
 
