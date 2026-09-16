@@ -9,6 +9,7 @@ def factors(num):
             if num // i != i:
                 result.append(num // i)
 
+    result.sort()
     return result
 
 print(factors(20))
