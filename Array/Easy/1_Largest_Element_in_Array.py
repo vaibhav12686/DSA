@@ -10,4 +10,4 @@ def largestElement(arr: list[int], n: int) -> int:
 
 arr = [10, 20, 4, 45, 99, 3]
 n = len(arr)
-print(largestElement(arr, n)) 
+print(largestElement(arr, n))  
